@@ -189,6 +189,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterController: {fileID: 88997872}
+  groundCheck: {fileID: 1019399723}
+  groundDistance: 0.5
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 256
   speed: 5
   gravity: -9.81
 --- !u!1001 &569363119
@@ -601,7 +606,7 @@ GameObject:
   - component: {fileID: 2053879664}
   - component: {fileID: 2053879663}
   - component: {fileID: 2053879662}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
