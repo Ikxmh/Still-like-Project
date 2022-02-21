@@ -29,9 +29,9 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask); 
 
-        if (isGrounded && velocity.y < 0)
+        if (isGrounded && velocity.y < 0f)
         {
-            velocity.y = -2f;
+            velocity.y = -5f;
         }
 
         // assigning it to the axes 
